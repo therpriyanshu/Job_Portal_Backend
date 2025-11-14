@@ -431,3 +431,4 @@ P:\Projects\Job_Portal-main\Job_Portal-main\JobPortal\obj\Debug\net8.0\refint\Jo
 P:\Projects\Job_Portal-main\Job_Portal-main\JobPortal\obj\Debug\net8.0\JobPortal.pdb
 P:\Projects\Job_Portal-main\Job_Portal-main\JobPortal\obj\Debug\net8.0\JobPortal.genruntimeconfig.cache
 P:\Projects\Job_Portal-main\Job_Portal-main\JobPortal\obj\Debug\net8.0\ref\JobPortal.dll
+P:\Projects\Job_Portal-main\Job_Portal-main\JobPortal\obj\Debug\net8.0\JobPortal.sourcelink.json
