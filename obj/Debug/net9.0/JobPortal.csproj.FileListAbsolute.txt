@@ -1,0 +1,8 @@
+C:\Users\madha\OneDrive\Desktop\DOTNET\JobPortal\obj\Debug\net9.0\JobPortal.csproj.AssemblyReference.cache
+C:\Users\madha\OneDrive\Desktop\DOTNET\JobPortal\obj\Debug\net9.0\JobPortal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\madha\OneDrive\Desktop\DOTNET\JobPortal\obj\Debug\net9.0\JobPortal.AssemblyInfoInputs.cache
+C:\Users\madha\OneDrive\Desktop\DOTNET\JobPortal\obj\Debug\net9.0\JobPortal.AssemblyInfo.cs
+C:\Users\madha\OneDrive\Desktop\DOTNET\JobPortal\obj\Debug\net9.0\JobPortal.csproj.CoreCompileInputs.cache
+C:\Users\madha\OneDrive\Desktop\DOTNET\JobPortal\obj\Debug\net9.0\JobPortal.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\madha\OneDrive\Desktop\DOTNET\JobPortal\obj\Debug\net9.0\JobPortal.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\madha\OneDrive\Desktop\DOTNET\JobPortal\obj\Debug\net9.0\JobPortal.sourcelink.json
