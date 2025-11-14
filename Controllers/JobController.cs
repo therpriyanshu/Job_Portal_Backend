@@ -77,7 +77,11 @@ public class JobController : ControllerBase
         return Ok(appliedJobs);
     }
 
-    
-
-    
+    // ✅ Database Connection Test Endpoint
+    [HttpGet("testdb")]
+    public IActionResult TestDatabase()
+    {
+        var canConnect = _jobService.CanConnectToDatabase();
+        return Ok(new { DatabaseConnected = canConnect });
+    }
 }

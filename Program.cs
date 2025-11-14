@@ -10,13 +10,13 @@ var builder = WebApplication.CreateBuilder(args);
 // Database Connection
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(
-        builder.Configuration.GetConnectionString("DefaultConnection") 
+        builder.Configuration.GetConnectionString("DefaultConnection")
         ?? throw new InvalidOperationException("Database connection string is missing."),
         ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))
     ));
 
 // Authentication Configuration
-var secretKey = builder.Configuration["Jwt:Secret"] 
+var secretKey = builder.Configuration["Jwt:Secret"]
     ?? throw new InvalidOperationException("JWT Secret is missing.");
 var key = Encoding.ASCII.GetBytes(secretKey);
 
@@ -57,8 +57,8 @@ builder.Services.AddScoped<IJobService, JobService>();
 
 // Add Controllers
 builder.Services.AddControllers();
-builder.Services.AddCors(options => 
-    options.AddPolicy("AllowAll", policy => 
+builder.Services.AddCors(options =>
+    options.AddPolicy("AllowAll", policy =>
         policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()));
 
 var app = builder.Build();

@@ -9,6 +9,7 @@ public interface IJobService
     Task<Job> AddJob(Job job);
     Task<bool> ApplyForJob(Guid jobId, string email);
     Task<IEnumerable<Job>> GetAppliedJobsByEmail(string email);
+    bool CanConnectToDatabase();
 
-    
 }
+

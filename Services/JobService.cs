@@ -12,6 +12,10 @@ public class JobService : IJobService
     {
         _context = context;
     }
+    public bool CanConnectToDatabase()
+    {
+        return _context.Database.CanConnect();
+    }
 
     // Get all jobs
     public async Task<IEnumerable<Job>> GetJobs()
@@ -66,5 +70,5 @@ public class JobService : IJobService
             .Where(j => jobIds.Contains(j.Id))
             .ToListAsync();
     }
-    
+
 }
